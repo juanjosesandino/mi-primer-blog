@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e4e6ed;
+}
+
+body .main-container {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+body .main-container header .container .row .logo a {
+  text-decoration: none;
+  color: #1b2b47;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+body .main-container header .container .row .logo p {
+  font-family: "Oswald", sans-serif;
+}
+
+body .main-container header .container .row .redes-sociales a {
+  min-width: 40px;
+  max-height: 40px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  color: white;
+  border-radius: 100px;
+}
+
+body .main-container header .container .row .redes-sociales .facebook {
+  background-color: #1877f2;
+  margin-left: 0px;
+}
+
+body .main-container header .container .row .redes-sociales .youtube {
+  background-color: #ff0000;
+}
+
+body .main-container header .container .row .redes-sociales .linkedin {
+  background-color: #0077b5;
+}
+
+body .main-container header .container .row .redes-sociales .twitter {
+  background-color: #1da1f2;
+}
+
+body .main-container header .container .row .redes-sociales .pinterest {
+  background-color: #e60023;
+}
+
+body .main-container header .container .row .redes-sociales .tumblr {
+  background-color: #35465c;
+}
+
+body .main-container header .container .row .redes-sociales .instagram {
+  background-color: #833ab4;
+}
+
+body .main-container header .container .menu .row ul {
+  list-style-type: none;
+}
+
+body .main-container header .container .menu .row ul li {
+  margin-right: 10px;
+}
+
+body .main-container header .container .ad img {
+  width: 100%;
+}
+
+body .main-container .principal main .titulo-seccion {
+  font-family: "Oswald", sans-serif;
+}
+
+body .main-container .principal main .posts article .card {
+  box-shadow: 0 0 1px black;
+}
+
+body .main-container .principal main .posts article .card .foto img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+body .main-container .principal main .posts article .card .card-body .info a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #3b61eb;
+}
+
+body .main-container .principal main .posts article .card .card-footer a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #434b64;
+}
+
+body .main-container .principal aside .titulo-seccion {
+  font-family: "Oswald", sans-serif;
+}
+
+body .main-container .principal aside .acerca-mi img {
+  width: 100%;
+}
+
+body .main-container .principal aside .acerca-mi .auto-descripcion {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5px;
+}
+
+body .main-container .principal aside form {
+  border: 1px solid #ced1dd;
+  border-radius: 5px;
+  background-color: #ced1dd;
+}
+
+body .main-container .paginacion .row ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+body .main-container .paginacion .row ul li {
+  background-color: #3b61eb;
+  border-color: #3b61eb;
+}
+
+body .main-container .paginacion .row ul li:hover {
+  background-color: #1b2b47;
+  border-color: #1b2b47;
+}
+
+body .main-container .paginacion .row ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+body .main-container footer .foto-final img {
+  width: 100%;
+}
+
+body .pie-pagina {
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  body .main-container header .container .row .redes-sociales a {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  body .main-container header .container .row .redes-sociales .facebook {
+    margin-left: 0px;
+  }
+  body .main-container header .container .ad {
+    display: none;
+  }
+  body .main-container footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body .main-container header .container .row .redes-sociales a {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  body .main-container header .container .row .redes-sociales .facebook {
+    margin-left: 0px;
+  }
+}

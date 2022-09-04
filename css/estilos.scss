@@ -1,0 +1,162 @@
+$fondo: #f2f2f2;
+$azul-primario: #3b61eb;
+$azul-secundario: #1b2b47;
+$gris-primario: #434b64;
+$gris-secundario: #ced1dd;
+
+$font-family: "Open Sans", sans-serif;
+$font-family2: "Oswald", sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e4e6ed;
+    .main-container{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        header{
+            .container{
+                .row{
+                    .logo{
+                        a{
+                            text-decoration: none;
+                            color: $azul-secundario;
+                            font-size: 30px;
+                            font-family: $font-family;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-family: $font-family2;
+                        }
+                    }
+                    .redes-sociales{
+                        a{
+                            min-width: 40px;
+                            max-height: 40px;
+                            margin-left: 7.5px;
+                            margin-right: 7.5px;
+                            color: white;
+                            border-radius: 100px;  
+                        }
+                        .facebook{background-color: #1877f2; margin-left: 0px}
+                        .youtube{ background-color: #ff0000;}
+                        .linkedin{background-color: #0077b5;}
+                        .twitter{background-color: #1da1f2;}
+                        .pinterest{background-color: #e60023;}
+                        .tumblr{background-color: #35465c;}
+                        .instagram{background-color: #833ab4;}
+                    }
+                }
+                .menu{
+                    .row{
+                        ul{list-style-type:none;
+                            li{margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .ad{
+                    img{width: 100%;}
+                }
+            }
+        }
+        .principal{
+            main{
+                .titulo-seccion{font-family: $font-family2;}
+                .posts{
+                    article{
+                        .card{
+                            box-shadow: 0 0 1px black;
+                            .foto{img{width:100%; border-top-left-radius :5px; border-top-right-radius: 5px}}
+                            .card-body{
+                                .info{
+                                    a{text-decoration: none; font-family: $font-family; color:$azul-primario}
+                                }
+                            }
+                            .card-footer{
+                                a{text-decoration: none; font-family: $font-family; color: $gris-primario}
+                            }
+                        }
+                    }
+                }
+            }
+            aside{
+                .titulo-seccion{font-family: $font-family2;}
+                .acerca-mi{
+                    img{width: 100%;}
+                    .auto-descripcion{font-family: $font-family; margin-top: 5px;}
+                }
+                form{border: 1px solid $gris-secundario; border-radius: 5px; background-color: $gris-secundario;}
+            }
+        }
+        .paginacion{
+            .row{
+                ul{
+                    list-style-type: none;
+                    display: inline-block;
+                    li{
+                        background-color: $azul-primario;
+                        border-color: $azul-primario;
+                        &:hover{
+                            background-color: $azul-secundario;
+                            border-color: $azul-secundario;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            .foto-final{img{width: 100%;}}
+        }
+    }
+     .pie-pagina{width: 100%;}   
+}
+@media screen and (max-width: 425px){
+    body{
+        .main-container{
+            header{
+                .container{
+                    .row{
+                        .redes-sociales{
+                            a{
+                                margin-left: 3px;
+                                margin-right: 3px;
+                            }
+                            .facebook{margin-left: 0px;}
+                        }
+                    }
+                    .ad{
+                        display: none;
+                    }
+                }
+            }
+            footer{display: none;}
+        }
+    }
+}
+@media screen and (max-width: 375px){
+    body{
+        .main-container{
+            header{
+                .container{
+                    .row{
+                        .redes-sociales{
+                            a{
+                                margin-left: 1px;
+                                margin-right: 1px;
+                            }
+                            .facebook{margin-left: 0px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
